@@ -1,78 +1,78 @@
-ProductID;ProductName;CompanyName;City;Region;Country;CategoryName;QuantityPerUnit;UnitPrice;UnitsOnOrder;Discontinued
-1;Chai;Exotic Liquids;London;N/A;UK;Beverages;10 boxes x 20 bags;18;0;False
-2;Chang;Exotic Liquids;London;N/A;UK;Beverages;24 - 12 oz bottles;19;40;False
-3;Aniseed Syrup;Exotic Liquids;London;N/A;UK;Condiments;12 - 550 ml bottles;10;70;False
-4;Chef Anton's Cajun Seasoning;New Orleans Cajun Delights;New Orleans;LA;USA;Condiments;48 - 6 oz jars;22;0;False
-5;Chef Anton's Gumbo Mix;New Orleans Cajun Delights;New Orleans;LA;USA;Condiments;36 boxes;21.35;0;True
-6;Grandma's Boysenberry Spread;Grandma Kelly's Homestead;Ann Arbor;MI;USA;Condiments;12 - 8 oz jars;25;0;False
-7;Uncle Bob's Organic Dried Pears;Grandma Kelly's Homestead;Ann Arbor;MI;USA;Produce;12 - 1 lb pkgs.;30;0;False
-8;Northwoods Cranberry Sauce;Grandma Kelly's Homestead;Ann Arbor;MI;USA;Condiments;12 - 12 oz jars;40;0;False
-9;Mishi Kobe Niku;Tokyo Traders;Tokyo;N/A;Japan;Meat/Poultry;18 - 500 g pkgs.;97;0;True
-10;Ikura;Tokyo Traders;Tokyo;N/A;Japan;Seafood;12 - 200 ml jars;31;0;False
-11;Queso Cabrales;Cooperativa de Quesos 'Las Cabras';Oviedo;Asturias;Spain;Dairy Products;1 kg pkg.;21;30;False
-12;Queso Manchego La Pastora;Cooperativa de Quesos 'Las Cabras';Oviedo;Asturias;Spain;Dairy Products;10 - 500 g pkgs.;38;0;False
-13;Konbu;Mayumi's;Osaka;N/A;Japan;Seafood;2 kg box;6;0;False
-14;Tofu;Mayumi's;Osaka;N/A;Japan;Produce;40 - 100 g pkgs.;23.25;0;False
-15;Genen Shouyu;Mayumi's;Osaka;N/A;Japan;Condiments;24 - 250 ml bottles;15.5;0;False
-16;Pavlova;Pavlova, Ltd.;Melbourne;Victoria;Australia;Confections;32 - 500 g boxes;17.45;0;False
-17;Alice Mutton;Pavlova, Ltd.;Melbourne;Victoria;Australia;Meat/Poultry;20 - 1 kg tins;39;0;True
-18;Carnarvon Tigers;Pavlova, Ltd.;Melbourne;Victoria;Australia;Seafood;16 kg pkg.;62.5;0;False
-19;Teatime Chocolate Biscuits;Specialty Biscuits, Ltd.;Manchester;N/A;UK;Confections;10 boxes x 12 pieces;9.2;0;False
-20;Sir Rodney's Marmalade;Specialty Biscuits, Ltd.;Manchester;N/A;UK;Confections;30 gift boxes;81;0;False
-21;Sir Rodney's Scones;Specialty Biscuits, Ltd.;Manchester;N/A;UK;Confections;24 pkgs. x 4 pieces;10;40;False
-22;Gustaf's Knäckebröd;PB Knäckebröd AB;Göteborg;N/A;Sweden;Grains/Cereals;24 - 500 g pkgs.;21;0;False
-23;Tunnbröd;PB Knäckebröd AB;Göteborg;N/A;Sweden;Grains/Cereals;12 - 250 g pkgs.;9;0;False
-24;Guaraná Fantástica;Refrescos Americanas LTDA;Sao Paulo;N/A;Brazil;Beverages;12 - 355 ml cans;4.5;0;True
-25;NuNuCa Nuß-Nougat-Creme;Heli Süßwaren GmbH & Co. KG;Berlin;N/A;Germany;Confections;20 - 450 g glasses;14;0;False
-26;Gumbär Gummibärchen;Heli Süßwaren GmbH & Co. KG;Berlin;N/A;Germany;Confections;100 - 250 g bags;31.23;0;False
-27;Schoggi Schokolade;Heli Süßwaren GmbH & Co. KG;Berlin;N/A;Germany;Confections;100 - 100 g pieces;43.9;0;False
-28;Rössle Sauerkraut;Plutzer Lebensmittelgroßmärkte AG;Frankfurt;N/A;Germany;Produce;25 - 825 g cans;45.6;0;True
-29;Thüringer Rostbratwurst;Plutzer Lebensmittelgroßmärkte AG;Frankfurt;N/A;Germany;Meat/Poultry;50 bags x 30 sausgs.;123.79;0;True
-30;Nord-Ost Matjeshering;Nord-Ost-Fisch Handelsgesellschaft mbH;Cuxhaven;N/A;Germany;Seafood;10 - 200 g glasses;25.89;0;False
-31;Gorgonzola Telino;Formaggi Fortini s.r.l.;Ravenna;N/A;Italy;Dairy Products;12 - 100 g pkgs;12.5;70;False
-32;Mascarpone Fabioli;Formaggi Fortini s.r.l.;Ravenna;N/A;Italy;Dairy Products;24 - 200 g pkgs.;32;40;False
-33;Geitost;Norske Meierier;Sandvika;N/A;Norway;Dairy Products;500 g;2.5;0;False
-34;Sasquatch Ale;Bigfoot Breweries;Bend;OR;USA;Beverages;24 - 12 oz bottles;14;0;False
-35;Steeleye Stout;Bigfoot Breweries;Bend;OR;USA;Beverages;24 - 12 oz bottles;18;0;False
-36;Inlagd Sill;Svensk Sjöföda AB;Stockholm;N/A;Sweden;Seafood;24 - 250 g  jars;19;0;False
-37;Gravad lax;Svensk Sjöföda AB;Stockholm;N/A;Sweden;Seafood;12 - 500 g pkgs.;26;50;False
-38;Côte de Blaye;Aux joyeux ecclésiastiques;Paris;N/A;France;Beverages;12 - 75 cl bottles;263.5;0;False
-39;Chartreuse verte;Aux joyeux ecclésiastiques;Paris;N/A;France;Beverages;750 cc per bottle;18;0;False
-40;Boston Crab Meat;New England Seafood Cannery;Boston;MA;USA;Seafood;24 - 4 oz tins;18.4;0;False
-41;Jack's New England Clam Chowder;New England Seafood Cannery;Boston;MA;USA;Seafood;12 - 12 oz cans;9.65;0;False
-42;Singaporean Hokkien Fried Mee;Leka Trading;Singapore;N/A;Singapore;Grains/Cereals;32 - 1 kg pkgs.;14;0;True
-43;Ipoh Coffee;Leka Trading;Singapore;N/A;Singapore;Beverages;16 - 500 g tins;46;10;False
-44;Gula Malacca;Leka Trading;Singapore;N/A;Singapore;Condiments;20 - 2 kg bags;19.45;0;False
-45;Rogede sild;Lyngbysild;Lyngby;N/A;Denmark;Seafood;1k pkg.;9.5;70;False
-46;Spegesild;Lyngbysild;Lyngby;N/A;Denmark;Seafood;4 - 450 g glasses;12;0;False
-47;Zaanse koeken;Zaanse Snoepfabriek;Zaandam;N/A;Netherlands;Confections;10 - 4 oz boxes;9.5;0;False
-48;Chocolade;Zaanse Snoepfabriek;Zaandam;N/A;Netherlands;Confections;10 pkgs.;12.75;70;False
-49;Maxilaku;Karkki Oy;Lappeenranta;N/A;Finland;Confections;24 - 50 g pkgs.;20;60;False
-50;Valkoinen suklaa;Karkki Oy;Lappeenranta;N/A;Finland;Confections;12 - 100 g bars;16.25;0;False
-51;Manjimup Dried Apples;G'day, Mate;Sydney;NSW;Australia;Produce;50 - 300 g pkgs.;53;0;False
-52;Filo Mix;G'day, Mate;Sydney;NSW;Australia;Grains/Cereals;16 - 2 kg boxes;7;0;False
-53;Perth Pasties;G'day, Mate;Sydney;NSW;Australia;Meat/Poultry;48 pieces;32.8;0;True
-54;Tourtière;Ma Maison;Montréal;Québec;Canada;Meat/Poultry;16 pies;7.45;0;False
-55;Pâté chinois;Ma Maison;Montréal;Québec;Canada;Meat/Poultry;24 boxes x 2 pies;24;0;False
-56;Gnocchi di nonna Alice;Pasta Buttini s.r.l.;Salerno;N/A;Italy;Grains/Cereals;24 - 250 g pkgs.;38;10;False
-57;Ravioli Angelo;Pasta Buttini s.r.l.;Salerno;N/A;Italy;Grains/Cereals;24 - 250 g pkgs.;19.5;0;False
-58;Escargots de Bourgogne;Escargots Nouveaux;Montceau;N/A;France;Seafood;24 pieces;13.25;0;False
-59;Raclette Courdavault;Gai pâturage;Annecy;N/A;France;Dairy Products;5 kg pkg.;55;0;False
-60;Camembert Pierrot;Gai pâturage;Annecy;N/A;France;Dairy Products;15 - 300 g rounds;34;0;False
-61;Sirop d'érable;Forêts d'érables;Ste-Hyacinthe;Québec;Canada;Condiments;24 - 500 ml bottles;28.5;0;False
-62;Tarte au sucre;Forêts d'érables;Ste-Hyacinthe;Québec;Canada;Confections;48 pies;49.3;0;False
-63;Vegie-spread;Pavlova, Ltd.;Melbourne;Victoria;Australia;Condiments;15 - 625 g jars;43.9;0;False
-64;Wimmers gute Semmelknödel;Plutzer Lebensmittelgroßmärkte AG;Frankfurt;N/A;Germany;Grains/Cereals;20 bags x 4 pieces;33.25;80;False
-65;Louisiana Fiery Hot Pepper Sauce;New Orleans Cajun Delights;New Orleans;LA;USA;Condiments;32 - 8 oz bottles;21.05;0;False
-66;Louisiana Hot Spiced Okra;New Orleans Cajun Delights;New Orleans;LA;USA;Condiments;24 - 8 oz jars;17;100;False
-67;Laughing Lumberjack Lager;Bigfoot Breweries;Bend;OR;USA;Beverages;24 - 12 oz bottles;14;0;False
-68;Scottish Longbreads;Specialty Biscuits, Ltd.;Manchester;N/A;UK;Confections;10 boxes x 8 pieces;12.5;10;False
-69;Gudbrandsdalsost;Norske Meierier;Sandvika;N/A;Norway;Dairy Products;10 kg pkg.;36;0;False
-70;Outback Lager;Pavlova, Ltd.;Melbourne;Victoria;Australia;Beverages;24 - 355 ml bottles;15;10;False
-71;Flotemysost;Norske Meierier;Sandvika;N/A;Norway;Dairy Products;10 - 500 g pkgs.;21.5;0;False
-72;Mozzarella di Giovanni;Formaggi Fortini s.r.l.;Ravenna;N/A;Italy;Dairy Products;24 - 200 g pkgs.;34.8;0;False
-73;Röd Kaviar;Svensk Sjöföda AB;Stockholm;N/A;Sweden;Seafood;24 - 150 g jars;15;0;False
-74;Longlife Tofu;Tokyo Traders;Tokyo;N/A;Japan;Produce;5 kg pkg.;10;20;False
-75;Rhönbräu Klosterbier;Plutzer Lebensmittelgroßmärkte AG;Frankfurt;N/A;Germany;Beverages;24 - 0.5 l bottles;7.75;0;False
-76;Lakkalikööri;Karkki Oy;Lappeenranta;N/A;Finland;Beverages;500 ml;18;0;False
-77;Original Frankfurter grüne Soße;Plutzer Lebensmittelgroßmärkte AG;Frankfurt;N/A;Germany;Condiments;12 boxes;13;0;False
+ProductID;ProductName;CompanyName;City;Region;Country;CategoryName;UnitPrice;UnitsOnOrder;Discontinued
+1;Chai;Exotic Liquids;London;N/A;UK;Beverages;18;0;False
+2;Chang;Exotic Liquids;London;N/A;UK;Beverages;19;40;False
+3;Aniseed Syrup;Exotic Liquids;London;N/A;UK;Condiments;10;70;False
+4;Chef Anton's Cajun Seasoning;New Orleans Cajun Delights;New Orleans;LA;USA;Condiments;22;0;False
+5;Chef Anton's Gumbo Mix;New Orleans Cajun Delights;New Orleans;LA;USA;Condiments;21.35;0;True
+6;Grandma's Boysenberry Spread;Grandma Kelly's Homestead;Ann Arbor;MI;USA;Condiments;25;0;False
+7;Uncle Bob's Organic Dried Pears;Grandma Kelly's Homestead;Ann Arbor;MI;USA;Produce;30;0;False
+8;Northwoods Cranberry Sauce;Grandma Kelly's Homestead;Ann Arbor;MI;USA;Condiments;40;0;False
+9;Mishi Kobe Niku;Tokyo Traders;Tokyo;N/A;Japan;Meat/Poultry;97;0;True
+10;Ikura;Tokyo Traders;Tokyo;N/A;Japan;Seafood;31;0;False
+11;Queso Cabrales;Cooperativa de Quesos 'Las Cabras';Oviedo;Asturias;Spain;Dairy Products;21;30;False
+12;Queso Manchego La Pastora;Cooperativa de Quesos 'Las Cabras';Oviedo;Asturias;Spain;Dairy Products;38;0;False
+13;Konbu;Mayumi's;Osaka;N/A;Japan;Seafood;6;0;False
+14;Tofu;Mayumi's;Osaka;N/A;Japan;Produce;23.25;0;False
+15;Genen Shouyu;Mayumi's;Osaka;N/A;Japan;Condiments;15.5;0;False
+16;Pavlova;Pavlova, Ltd.;Melbourne;Victoria;Australia;Confections;17.45;0;False
+17;Alice Mutton;Pavlova, Ltd.;Melbourne;Victoria;Australia;Meat/Poultry;39;0;True
+18;Carnarvon Tigers;Pavlova, Ltd.;Melbourne;Victoria;Australia;Seafood;62.5;0;False
+19;Teatime Chocolate Biscuits;Specialty Biscuits, Ltd.;Manchester;N/A;UK;Confections;9.2;0;False
+20;Sir Rodney's Marmalade;Specialty Biscuits, Ltd.;Manchester;N/A;UK;Confections;81;0;False
+21;Sir Rodney's Scones;Specialty Biscuits, Ltd.;Manchester;N/A;UK;Confections;10;40;False
+22;Gustaf's Knäckebröd;PB Knäckebröd AB;Göteborg;N/A;Sweden;Grains/Cereals;21;0;False
+23;Tunnbröd;PB Knäckebröd AB;Göteborg;N/A;Sweden;Grains/Cereals;9;0;False
+24;Guaraná Fantástica;Refrescos Americanas LTDA;Sao Paulo;N/A;Brazil;Beverages;4.5;0;True
+25;NuNuCa Nuß-Nougat-Creme;Heli Süßwaren GmbH & Co. KG;Berlin;N/A;Germany;Confections;14;0;False
+26;Gumbär Gummibärchen;Heli Süßwaren GmbH & Co. KG;Berlin;N/A;Germany;Confections;31.23;0;False
+27;Schoggi Schokolade;Heli Süßwaren GmbH & Co. KG;Berlin;N/A;Germany;Confections;43.9;0;False
+28;Rössle Sauerkraut;Plutzer Lebensmittelgroßmärkte AG;Frankfurt;N/A;Germany;Produce;45.6;0;True
+29;Thüringer Rostbratwurst;Plutzer Lebensmittelgroßmärkte AG;Frankfurt;N/A;Germany;Meat/Poultry;123.79;0;True
+30;Nord-Ost Matjeshering;Nord-Ost-Fisch Handelsgesellschaft mbH;Cuxhaven;N/A;Germany;Seafood;25.89;0;False
+31;Gorgonzola Telino;Formaggi Fortini s.r.l.;Ravenna;N/A;Italy;Dairy Products;12.5;70;False
+32;Mascarpone Fabioli;Formaggi Fortini s.r.l.;Ravenna;N/A;Italy;Dairy Products;32;40;False
+33;Geitost;Norske Meierier;Sandvika;N/A;Norway;Dairy Products;2.5;0;False
+34;Sasquatch Ale;Bigfoot Breweries;Bend;OR;USA;Beverages;14;0;False
+35;Steeleye Stout;Bigfoot Breweries;Bend;OR;USA;Beverages;18;0;False
+36;Inlagd Sill;Svensk Sjöföda AB;Stockholm;N/A;Sweden;Seafood;19;0;False
+37;Gravad lax;Svensk Sjöföda AB;Stockholm;N/A;Sweden;Seafood;26;50;False
+38;Côte de Blaye;Aux joyeux ecclésiastiques;Paris;N/A;France;Beverages;263.5;0;False
+39;Chartreuse verte;Aux joyeux ecclésiastiques;Paris;N/A;France;Beverages;18;0;False
+40;Boston Crab Meat;New England Seafood Cannery;Boston;MA;USA;Seafood;18.4;0;False
+41;Jack's New England Clam Chowder;New England Seafood Cannery;Boston;MA;USA;Seafood;9.65;0;False
+42;Singaporean Hokkien Fried Mee;Leka Trading;Singapore;N/A;Singapore;Grains/Cereals;14;0;True
+43;Ipoh Coffee;Leka Trading;Singapore;N/A;Singapore;Beverages;46;10;False
+44;Gula Malacca;Leka Trading;Singapore;N/A;Singapore;Condiments;19.45;0;False
+45;Rogede sild;Lyngbysild;Lyngby;N/A;Denmark;Seafood;9.5;70;False
+46;Spegesild;Lyngbysild;Lyngby;N/A;Denmark;Seafood;12;0;False
+47;Zaanse koeken;Zaanse Snoepfabriek;Zaandam;N/A;Netherlands;Confections;9.5;0;False
+48;Chocolade;Zaanse Snoepfabriek;Zaandam;N/A;Netherlands;Confections;12.75;70;False
+49;Maxilaku;Karkki Oy;Lappeenranta;N/A;Finland;Confections;20;60;False
+50;Valkoinen suklaa;Karkki Oy;Lappeenranta;N/A;Finland;Confections;16.25;0;False
+51;Manjimup Dried Apples;G'day, Mate;Sydney;NSW;Australia;Produce;53;0;False
+52;Filo Mix;G'day, Mate;Sydney;NSW;Australia;Grains/Cereals;7;0;False
+53;Perth Pasties;G'day, Mate;Sydney;NSW;Australia;Meat/Poultry;32.8;0;True
+54;Tourtière;Ma Maison;Montréal;Québec;Canada;Meat/Poultry;7.45;0;False
+55;Pâté chinois;Ma Maison;Montréal;Québec;Canada;Meat/Poultry;24;0;False
+56;Gnocchi di nonna Alice;Pasta Buttini s.r.l.;Salerno;N/A;Italy;Grains/Cereals;38;10;False
+57;Ravioli Angelo;Pasta Buttini s.r.l.;Salerno;N/A;Italy;Grains/Cereals;19.5;0;False
+58;Escargots de Bourgogne;Escargots Nouveaux;Montceau;N/A;France;Seafood;13.25;0;False
+59;Raclette Courdavault;Gai pâturage;Annecy;N/A;France;Dairy Products;55;0;False
+60;Camembert Pierrot;Gai pâturage;Annecy;N/A;France;Dairy Products;34;0;False
+61;Sirop d'érable;Forêts d'érables;Ste-Hyacinthe;Québec;Canada;Condiments;28.5;0;False
+62;Tarte au sucre;Forêts d'érables;Ste-Hyacinthe;Québec;Canada;Confections;49.3;0;False
+63;Vegie-spread;Pavlova, Ltd.;Melbourne;Victoria;Australia;Condiments;43.9;0;False
+64;Wimmers gute Semmelknödel;Plutzer Lebensmittelgroßmärkte AG;Frankfurt;N/A;Germany;Grains/Cereals;33.25;80;False
+65;Louisiana Fiery Hot Pepper Sauce;New Orleans Cajun Delights;New Orleans;LA;USA;Condiments;21.05;0;False
+66;Louisiana Hot Spiced Okra;New Orleans Cajun Delights;New Orleans;LA;USA;Condiments;17;100;False
+67;Laughing Lumberjack Lager;Bigfoot Breweries;Bend;OR;USA;Beverages;14;0;False
+68;Scottish Longbreads;Specialty Biscuits, Ltd.;Manchester;N/A;UK;Confections;12.5;10;False
+69;Gudbrandsdalsost;Norske Meierier;Sandvika;N/A;Norway;Dairy Products;36;0;False
+70;Outback Lager;Pavlova, Ltd.;Melbourne;Victoria;Australia;Beverages;15;10;False
+71;Flotemysost;Norske Meierier;Sandvika;N/A;Norway;Dairy Products;21.5;0;False
+72;Mozzarella di Giovanni;Formaggi Fortini s.r.l.;Ravenna;N/A;Italy;Dairy Products;34.8;0;False
+73;Röd Kaviar;Svensk Sjöföda AB;Stockholm;N/A;Sweden;Seafood;15;0;False
+74;Longlife Tofu;Tokyo Traders;Tokyo;N/A;Japan;Produce;10;20;False
+75;Rhönbräu Klosterbier;Plutzer Lebensmittelgroßmärkte AG;Frankfurt;N/A;Germany;Beverages;7.75;0;False
+76;Lakkalikööri;Karkki Oy;Lappeenranta;N/A;Finland;Beverages;18;0;False
+77;Original Frankfurter grüne Soße;Plutzer Lebensmittelgroßmärkte AG;Frankfurt;N/A;Germany;Condiments;13;0;False
