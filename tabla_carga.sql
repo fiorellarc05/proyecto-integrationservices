@@ -9,5 +9,5 @@ CREATE TABLE carga (
 	QuantityPerUnit INT,
 	UnitPrice numeric(10,2),
 	UnitsOnOrder INT,
-	Dicontinued bit
+	Discontinued bit
 )
