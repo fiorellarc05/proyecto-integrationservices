@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="16"
-  DTS:VersionGUID="{AA83232A-C083-4673-82ED-83F2B69ED290}">
+  DTS:VersionBuild="23"
+  DTS:VersionGUID="{17A472E9-5221-4846-ACB3-B871036F2C76}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -136,99 +136,255 @@
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{CB15FBA4-AF5B-4E9F-9931-3CDEE5CCF3BB}"
-      DTS:IncludeInDebugDump="2345"
+      DTS:DTSID="{9EBBB9FE-265D-46A8-A3A8-81B3B7383021}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="cantLineas">
+      <DTS:VariableValue
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{EE634508-851A-463F-8E05-1D0D658BDCDB}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="cargaArchivo">
+      <DTS:VariableValue
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{D364CA73-0AA1-4E17-A4EA-6552028888DA}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="cargaExitosa">
+      <DTS:VariableValue
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{CD7C8695-7DE1-43EE-A40A-39299B81CE3D}"
+      DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="CategoryName">
       <DTS:VariableValue
-        DTS:DataType="8"
-        xml:space="preserve"></DTS:VariableValue>
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{E30E1D09-509D-4FE6-97A0-3255D4BC4C04}"
-      DTS:IncludeInDebugDump="2345"
+      DTS:DTSID="{35667E31-85AF-470F-89D7-47BC04137F3A}"
+      DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="City">
       <DTS:VariableValue
-        DTS:DataType="8"
-        xml:space="preserve"></DTS:VariableValue>
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{2C8BB2BA-D15B-457B-BFC6-43119130A691}"
-      DTS:IncludeInDebugDump="2345"
+      DTS:DTSID="{55FB257C-2D9A-4F7A-9EED-E271F5451D2F}"
+      DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="CompanyName">
       <DTS:VariableValue
-        DTS:DataType="8"
-        xml:space="preserve"></DTS:VariableValue>
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{9338A8B4-9DED-40B6-BAD9-8C415885C467}"
-      DTS:IncludeInDebugDump="2345"
+      DTS:DTSID="{CD5CD477-33D7-4E4A-82B9-57F70CF97C54}"
+      DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="Country">
       <DTS:VariableValue
-        DTS:DataType="8"
-        xml:space="preserve"></DTS:VariableValue>
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{3F0A09A5-A83F-403A-AE44-DBB537F5E5DD}"
+      DTS:DTSID="{82F5D5A2-2DAC-4607-9FF3-8C9F42A7E9CF}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="Discontinued">
       <DTS:VariableValue
-        DTS:DataType="11">0</DTS:VariableValue>
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{E90BEA26-2D2B-491B-8808-0A363B97FBEE}"
+      DTS:DTSID="{7FEA71AB-882D-4E87-91E1-7773ED049D16}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
-      DTS:ObjectName="ProductID">
+      DTS:ObjectName="mensajeError">
       <DTS:VariableValue
-        DTS:DataType="3">0</DTS:VariableValue>
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{0DD11313-4D12-46E1-A4EC-30B41314C40E}"
-      DTS:IncludeInDebugDump="2345"
+      DTS:DTSID="{030D32FB-998B-4B49-8280-3D4194D85746}"
+      DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="ProductName">
       <DTS:VariableValue
-        DTS:DataType="8"
-        xml:space="preserve"></DTS:VariableValue>
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{042363F5-FA8E-4DF9-9035-8B0068D2BE31}"
-      DTS:IncludeInDebugDump="2345"
+      DTS:DTSID="{2A9AC7A1-2782-4FCC-A93D-AF499FCB0E8E}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="ProductoID">
+      <DTS:VariableValue
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{9BB448A3-D742-4CF0-935C-CCFF83E369CA}"
+      DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="Region">
       <DTS:VariableValue
-        DTS:DataType="8"
-        xml:space="preserve"></DTS:VariableValue>
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{B64C7CE5-DB54-4817-9115-FDBDAC26CD44}"
+      DTS:DTSID="{47A03B1F-CA55-45EA-9A7E-B59D19BD863C}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="UnitPrice">
       <DTS:VariableValue
-        DTS:DataType="5">0.</DTS:VariableValue>
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{CACB50C7-DA75-49B8-8B96-9B8BB76F60CB}"
+      DTS:DTSID="{F69EA85A-B7C0-4512-9851-10076417BD82}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
       DTS:ObjectName="UnitsOnOrder">
       <DTS:VariableValue
-        DTS:DataType="3">0</DTS:VariableValue>
+        DTS:DataSubType="ManagedSerializable"
+        DTS:DataType="13">
+        <SOAP-ENV:Envelope xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+          <SOAP-ENV:Body>
+            <xsd:anyType
+              id="ref-1"></xsd:anyType>
+          </SOAP-ENV:Body>
+        </SOAP-ENV:Envelope>
+      </DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -843,6 +999,61 @@
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
+          DTS:refId="Package\Foreach Loop Container\Execute SQL Task"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Execute SQL Task"
+          DTS:DTSID="{78011CD4-10E9-4BC3-A3A6-A7736A5DD947}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Execute SQL Task"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{A27F6890-B96D-4293-B812-8007417A26C8}"
+              SQLTask:BypassPrepare="False"
+              SQLTask:ResultType="ResultSetType_Rowset" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+              <SQLTask:ResultBinding
+                SQLTask:ResultName="cargaArchivo"
+                SQLTask:DtsVariableName="User::cargaArchivo" />
+              <SQLTask:ResultBinding
+                SQLTask:ResultName="cantLineas"
+                SQLTask:DtsVariableName="User::cantLineas" />
+              <SQLTask:ResultBinding
+                SQLTask:ResultName="cargaExitosa"
+                SQLTask:DtsVariableName="User::cargaExitosa" />
+              <SQLTask:ResultBinding
+                SQLTask:ResultName="mensajeError"
+                SQLTask:DtsVariableName="User::mensajeError" />
+              <SQLTask:ParameterBinding
+                SQLTask:ParameterName="cargaArchivo"
+                SQLTask:DtsVariableName="User::cargaArchivo"
+                SQLTask:ParameterDirection="Output"
+                SQLTask:DataType="135"
+                SQLTask:ParameterSize="-1" />
+              <SQLTask:ParameterBinding
+                SQLTask:ParameterName="cantLineas"
+                SQLTask:DtsVariableName="User::cantLineas"
+                SQLTask:ParameterDirection="Output"
+                SQLTask:DataType="20"
+                SQLTask:ParameterSize="-1" />
+              <SQLTask:ParameterBinding
+                SQLTask:ParameterName="cargaExitosa"
+                SQLTask:DtsVariableName="User::cargaExitosa"
+                SQLTask:ParameterDirection="Output"
+                SQLTask:DataType="11"
+                SQLTask:ParameterSize="-1" />
+              <SQLTask:ParameterBinding
+                SQLTask:ParameterName="mensajeError"
+                SQLTask:DtsVariableName="User::mensajeError"
+                SQLTask:ParameterDirection="Output"
+                SQLTask:DataType="130"
+                SQLTask:ParameterSize="-1" />
+            </SQLTask:SqlTaskData>
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
           DTS:refId="Package\Foreach Loop Container\File System Task"
           DTS:CreationName="Microsoft.FileSystemTask"
           DTS:Description="File System Task"
@@ -869,66 +1080,74 @@
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint"
           DTS:To="Package\Foreach Loop Container\File System Task" />
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 1]"
+          DTS:CreationName=""
+          DTS:DTSID="{8AB3264D-A9DE-4427-825D-FE7E006DF197}"
+          DTS:From="Package\Foreach Loop Container\Data Flow Task"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint 1"
+          DTS:To="Package\Foreach Loop Container\Execute SQL Task" />
       </DTS:PrecedenceConstraints>
       <DTS:ForEachVariableMappings>
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{D3D016AC-52F6-42B2-B40D-9E2A8626FA19}"
-          DTS:ObjectName="{D3D016AC-52F6-42B2-B40D-9E2A8626FA19}"
+          DTS:DTSID="{8CBC680C-1E19-4AE2-8124-308ADABD6D3D}"
+          DTS:ObjectName="{8CBC680C-1E19-4AE2-8124-308ADABD6D3D}"
           DTS:ValueIndex="0"
-          DTS:VariableName="User::ProductID" />
+          DTS:VariableName="User::ProductoID" />
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{CAEC1C9C-E56C-4E52-98E2-10AFE6601F1C}"
-          DTS:ObjectName="{CAEC1C9C-E56C-4E52-98E2-10AFE6601F1C}"
+          DTS:DTSID="{50D1A72F-3F46-4453-A255-CD50A78E86B2}"
+          DTS:ObjectName="{50D1A72F-3F46-4453-A255-CD50A78E86B2}"
           DTS:ValueIndex="1"
           DTS:VariableName="User::ProductName" />
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{C6D0709B-1B45-47E5-A83F-5B3FFD6C34F2}"
-          DTS:ObjectName="{C6D0709B-1B45-47E5-A83F-5B3FFD6C34F2}"
+          DTS:DTSID="{7AD55C88-641B-4F25-873B-01E044C3D9D8}"
+          DTS:ObjectName="{7AD55C88-641B-4F25-873B-01E044C3D9D8}"
           DTS:ValueIndex="2"
           DTS:VariableName="User::CompanyName" />
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{880C9EE8-4F1F-434C-A4F7-62FC68920947}"
-          DTS:ObjectName="{880C9EE8-4F1F-434C-A4F7-62FC68920947}"
+          DTS:DTSID="{3DCC4AA8-D434-43CE-8054-4D4A541F3B74}"
+          DTS:ObjectName="{3DCC4AA8-D434-43CE-8054-4D4A541F3B74}"
           DTS:ValueIndex="3"
           DTS:VariableName="User::City" />
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{315B3499-6CC1-46EC-B055-F9AD0D513E79}"
-          DTS:ObjectName="{315B3499-6CC1-46EC-B055-F9AD0D513E79}"
+          DTS:DTSID="{571FF761-2FC0-4E0A-B07D-491E7886C53E}"
+          DTS:ObjectName="{571FF761-2FC0-4E0A-B07D-491E7886C53E}"
           DTS:ValueIndex="4"
           DTS:VariableName="User::Region" />
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{380E4009-A10C-432D-BF38-5EC4B5D0D5DF}"
-          DTS:ObjectName="{380E4009-A10C-432D-BF38-5EC4B5D0D5DF}"
+          DTS:DTSID="{AD63C09F-CB5B-48B2-A6B9-74AD53FCD76C}"
+          DTS:ObjectName="{AD63C09F-CB5B-48B2-A6B9-74AD53FCD76C}"
           DTS:ValueIndex="5"
           DTS:VariableName="User::Country" />
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{65DF1C6B-E652-4F3D-A607-B31800A4EE36}"
-          DTS:ObjectName="{65DF1C6B-E652-4F3D-A607-B31800A4EE36}"
+          DTS:DTSID="{7AE327A8-B328-4783-B282-6E11F2AD2179}"
+          DTS:ObjectName="{7AE327A8-B328-4783-B282-6E11F2AD2179}"
           DTS:ValueIndex="6"
           DTS:VariableName="User::CategoryName" />
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{F6E96A79-838D-4921-9B11-E44EB93B0FC1}"
-          DTS:ObjectName="{F6E96A79-838D-4921-9B11-E44EB93B0FC1}"
+          DTS:DTSID="{D4AA316F-F756-400F-B3BA-37126198992C}"
+          DTS:ObjectName="{D4AA316F-F756-400F-B3BA-37126198992C}"
           DTS:ValueIndex="7"
           DTS:VariableName="User::UnitPrice" />
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{41300240-7E09-430F-8E30-35C4B61635CD}"
-          DTS:ObjectName="{41300240-7E09-430F-8E30-35C4B61635CD}"
+          DTS:DTSID="{C59D2EC0-8085-4279-BBE9-426EF11B29DE}"
+          DTS:ObjectName="{C59D2EC0-8085-4279-BBE9-426EF11B29DE}"
           DTS:ValueIndex="8"
           DTS:VariableName="User::UnitsOnOrder" />
         <DTS:ForEachVariableMapping
           DTS:CreationName=""
-          DTS:DTSID="{391A6BAC-459F-49ED-AFF5-AC9A6608C431}"
-          DTS:ObjectName="{391A6BAC-459F-49ED-AFF5-AC9A6608C431}"
+          DTS:DTSID="{F66EDAD0-9160-404D-9E7A-760272B3FF6B}"
+          DTS:ObjectName="{F66EDAD0-9160-404D-9E7A-760272B3FF6B}"
           DTS:ValueIndex="9"
           DTS:VariableName="User::Discontinued" />
       </DTS:ForEachVariableMappings>
@@ -945,7 +1164,7 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="152,42.6666666666667"
           Id="Package\Foreach Loop Container\Data Flow Task"
@@ -953,33 +1172,71 @@
         <NodeLayout
           Size="158.666666666667,42.6666666666667"
           Id="Package\Foreach Loop Container\File System Task"
-          TopLeft="80.4999969825149,131.29999439776" />
+          TopLeft="5.49999810010199,202.149993130863" />
         <EdgeLayout
           Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint]"
-          TopLeft="88.3749979976566,72.5666628775995">
+          TopLeft="64.3749979976566,72.5666628775995">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="71.4583323181917,58.7333315201601"
+              EndConnector="20.4583334357787,129.583330253264"
               Start="0,0"
-              End="71.4583323181917,51.2333315201601">
+              End="20.4583334357787,122.083330253264">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,25.36666576008" />
+                    End="0,48.6432279153884" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,25.36666576008"
-                    Point2="0,29.36666576008"
-                    Point3="4,29.36666576008" />
+                    Point1="0,48.6432279153884"
+                    Point2="0,52.6432279153884"
+                    Point3="4,52.6432279153884" />
                   <mssgle:LineSegment
-                    End="67.4583323181917,29.36666576008" />
+                    End="16.4583334357787,52.6432279153884" />
                   <mssgle:CubicBezierSegment
-                    Point1="67.4583323181917,29.36666576008"
-                    Point2="71.4583323181917,29.36666576008"
-                    Point3="71.4583323181917,33.36666576008" />
+                    Point1="16.4583334357787,52.6432279153884"
+                    Point2="20.4583334357787,52.6432279153884"
+                    Point3="20.4583334357787,56.6432279153884" />
                   <mssgle:LineSegment
-                    End="71.4583323181917,51.2333315201601" />
+                    End="20.4583334357787,122.083330253264" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="164,42.6666666666667"
+          Id="Package\Foreach Loop Container\Execute SQL Task"
+          TopLeft="181.166662159065,243.049994223416" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint 1]"
+          TopLeft="112.374997997657,72.5666628775995">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="150.791664161409,170.483331345816"
+              Start="0,0"
+              End="150.791664161409,162.983331345816">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,65.2588533592379" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,65.2588533592379"
+                    Point2="0,69.2588533592379"
+                    Point3="4,69.2588533592379" />
+                  <mssgle:LineSegment
+                    End="146.791664161409,69.2588533592379" />
+                  <mssgle:CubicBezierSegment
+                    Point1="146.791664161409,69.2588533592379"
+                    Point2="150.791664161409,69.2588533592379"
+                    Point3="150.791664161409,73.2588533592379" />
+                  <mssgle:LineSegment
+                    End="150.791664161409,162.983331345816" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -991,10 +1248,10 @@
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="307.333333333334,228.666666666667"
-          Size="307.333333333334,272"
+          PanelSize="391.333333333334,340.666666666667"
+          Size="391.333333333334,384"
           Id="Package\Foreach Loop Container"
-          TopLeft="121.249998193234,139.099997512698" />
+          TopLeft="121.249998193234,37.0499993374942" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -1002,7 +1259,7 @@
     design-time-name="Package\Foreach Loop Container\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="172,42.6666666666667"
           Id="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination"
@@ -1030,7 +1287,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
