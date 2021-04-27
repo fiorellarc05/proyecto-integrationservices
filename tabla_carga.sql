@@ -6,7 +6,6 @@ CREATE TABLE carga (
 	Region varchar(50),
 	Country varchar(50),
 	CategoryName varchar(50),
-	QuantityPerUnit INT,
 	UnitPrice numeric(10,2),
 	UnitsOnOrder INT,
 	Discontinued bit

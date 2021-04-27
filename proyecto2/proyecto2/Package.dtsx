@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{34A7606B-8AF0-4721-AE92-1851D1EED726}">
+  DTS:VersionBuild="16"
+  DTS:VersionGUID="{AA83232A-C083-4673-82ED-83F2B69ED290}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -136,10 +136,97 @@
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
-      DTS:DTSID="{A03BDBB2-CC68-4724-9F55-54733C570CD5}"
+      DTS:DTSID="{CB15FBA4-AF5B-4E9F-9931-3CDEE5CCF3BB}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="CategoryName">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{E30E1D09-509D-4FE6-97A0-3255D4BC4C04}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="City">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{2C8BB2BA-D15B-457B-BFC6-43119130A691}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="CompanyName">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{9338A8B4-9DED-40B6-BAD9-8C415885C467}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="Country">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{3F0A09A5-A83F-403A-AE44-DBB537F5E5DD}"
       DTS:IncludeInDebugDump="6789"
       DTS:Namespace="User"
-      DTS:ObjectName="cantLineas">
+      DTS:ObjectName="Discontinued">
+      <DTS:VariableValue
+        DTS:DataType="11">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{E90BEA26-2D2B-491B-8808-0A363B97FBEE}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="ProductID">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{0DD11313-4D12-46E1-A4EC-30B41314C40E}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="ProductName">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{042363F5-FA8E-4DF9-9035-8B0068D2BE31}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="Region">
+      <DTS:VariableValue
+        DTS:DataType="8"
+        xml:space="preserve"></DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{B64C7CE5-DB54-4817-9115-FDBDAC26CD44}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="UnitPrice">
+      <DTS:VariableValue
+        DTS:DataType="5">0.</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{CACB50C7-DA75-49B8-8B96-9B8BB76F60CB}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="UnitsOnOrder">
       <DTS:VariableValue
         DTS:DataType="3">0</DTS:VariableValue>
     </DTS:Variable>
@@ -162,9 +249,9 @@
             <FEFEProperty
               Folder="C:\Users\myjewerly_2020\Documents" />
             <FEFEProperty
-              FileSpec="DimProducto" />
+              FileSpec="DimProducto.csv" />
             <FEFEProperty
-              FileNameRetrievalType="2" />
+              FileNameRetrievalType="1" />
             <FEFEProperty
               Recurse="0" />
           </ForEachFileEnumeratorProperties>
@@ -755,7 +842,96 @@
             </pipeline>
           </DTS:ObjectData>
         </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Foreach Loop Container\File System Task"
+          DTS:CreationName="Microsoft.FileSystemTask"
+          DTS:Description="File System Task"
+          DTS:DTSID="{873065C3-FFFE-4E4F-8BDE-DC0E8CEA88F6}"
+          DTS:ExecutableType="Microsoft.FileSystemTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="File System Task"
+          DTS:TaskContact="File System Task;Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <FileSystemData
+              TaskOperationType="DeleteFile"
+              TaskSourcePath="{0F0D2C2C-58C0-484F-894A-E3554420BD45}" />
+          </DTS:ObjectData>
+        </DTS:Executable>
       </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Foreach Loop Container.PrecedenceConstraints[Constraint]"
+          DTS:CreationName=""
+          DTS:DTSID="{4EE5F6CD-8DF0-46A2-878C-74B7A8C38364}"
+          DTS:From="Package\Foreach Loop Container\Data Flow Task"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Constraint"
+          DTS:To="Package\Foreach Loop Container\File System Task" />
+      </DTS:PrecedenceConstraints>
+      <DTS:ForEachVariableMappings>
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{D3D016AC-52F6-42B2-B40D-9E2A8626FA19}"
+          DTS:ObjectName="{D3D016AC-52F6-42B2-B40D-9E2A8626FA19}"
+          DTS:ValueIndex="0"
+          DTS:VariableName="User::ProductID" />
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{CAEC1C9C-E56C-4E52-98E2-10AFE6601F1C}"
+          DTS:ObjectName="{CAEC1C9C-E56C-4E52-98E2-10AFE6601F1C}"
+          DTS:ValueIndex="1"
+          DTS:VariableName="User::ProductName" />
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{C6D0709B-1B45-47E5-A83F-5B3FFD6C34F2}"
+          DTS:ObjectName="{C6D0709B-1B45-47E5-A83F-5B3FFD6C34F2}"
+          DTS:ValueIndex="2"
+          DTS:VariableName="User::CompanyName" />
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{880C9EE8-4F1F-434C-A4F7-62FC68920947}"
+          DTS:ObjectName="{880C9EE8-4F1F-434C-A4F7-62FC68920947}"
+          DTS:ValueIndex="3"
+          DTS:VariableName="User::City" />
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{315B3499-6CC1-46EC-B055-F9AD0D513E79}"
+          DTS:ObjectName="{315B3499-6CC1-46EC-B055-F9AD0D513E79}"
+          DTS:ValueIndex="4"
+          DTS:VariableName="User::Region" />
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{380E4009-A10C-432D-BF38-5EC4B5D0D5DF}"
+          DTS:ObjectName="{380E4009-A10C-432D-BF38-5EC4B5D0D5DF}"
+          DTS:ValueIndex="5"
+          DTS:VariableName="User::Country" />
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{65DF1C6B-E652-4F3D-A607-B31800A4EE36}"
+          DTS:ObjectName="{65DF1C6B-E652-4F3D-A607-B31800A4EE36}"
+          DTS:ValueIndex="6"
+          DTS:VariableName="User::CategoryName" />
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{F6E96A79-838D-4921-9B11-E44EB93B0FC1}"
+          DTS:ObjectName="{F6E96A79-838D-4921-9B11-E44EB93B0FC1}"
+          DTS:ValueIndex="7"
+          DTS:VariableName="User::UnitPrice" />
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{41300240-7E09-430F-8E30-35C4B61635CD}"
+          DTS:ObjectName="{41300240-7E09-430F-8E30-35C4B61635CD}"
+          DTS:ValueIndex="8"
+          DTS:VariableName="User::UnitsOnOrder" />
+        <DTS:ForEachVariableMapping
+          DTS:CreationName=""
+          DTS:DTSID="{391A6BAC-459F-49ED-AFF5-AC9A6608C431}"
+          DTS:ObjectName="{391A6BAC-459F-49ED-AFF5-AC9A6608C431}"
+          DTS:ValueIndex="9"
+          DTS:VariableName="User::Discontinued" />
+      </DTS:ForEachVariableMappings>
     </DTS:Executable>
   </DTS:Executables>
   <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
@@ -769,18 +945,56 @@
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="152,42.6666666666667"
           Id="Package\Foreach Loop Container\Data Flow Task"
-          TopLeft="29.2499977461995,35.0999961179496" />
+          TopLeft="12.3749979976566,29.8999962109328" />
+        <NodeLayout
+          Size="158.666666666667,42.6666666666667"
+          Id="Package\Foreach Loop Container\File System Task"
+          TopLeft="80.4999969825149,131.29999439776" />
+        <EdgeLayout
+          Id="Package\Foreach Loop Container.PrecedenceConstraints[Constraint]"
+          TopLeft="88.3749979976566,72.5666628775995">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="71.4583323181917,58.7333315201601"
+              Start="0,0"
+              End="71.4583323181917,51.2333315201601">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.36666576008" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.36666576008"
+                    Point2="0,29.36666576008"
+                    Point3="4,29.36666576008" />
+                  <mssgle:LineSegment
+                    End="67.4583323181917,29.36666576008" />
+                  <mssgle:CubicBezierSegment
+                    Point1="67.4583323181917,29.36666576008"
+                    Point2="71.4583323181917,29.36666576008"
+                    Point3="71.4583323181917,33.36666576008" />
+                  <mssgle:LineSegment
+                    End="71.4583323181917,51.2333315201601" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="242,132.666666666667"
-          Size="242,176"
+          PanelSize="307.333333333334,228.666666666667"
+          Size="307.333333333334,272"
           Id="Package\Foreach Loop Container"
-          TopLeft="121.874998183921,139.099997512698" />
+          TopLeft="121.249998193234,139.099997512698" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -790,39 +1004,27 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="152,42.6666666666667"
-          Id="Package\Foreach Loop Container\Data Flow Task\Flat File Source"
-          TopLeft="436,166" />
-        <NodeLayout
           Size="172,42.6666666666667"
           Id="Package\Foreach Loop Container\Data Flow Task\OLE DB Destination"
-          TopLeft="481,318" />
+          TopLeft="423.187500861473,123.000003486872" />
+        <NodeLayout
+          Size="152,42.6666666666667"
+          Id="Package\Foreach Loop Container\Data Flow Task\Flat File Source"
+          TopLeft="153.187504214235,115.625000900775" />
         <EdgeLayout
           Id="Package\Foreach Loop Container\Data Flow Task.Paths[Flat File Source Output]"
-          TopLeft="512,208.666666666667">
+          TopLeft="305.187504214235,140.645835527157">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="55.0000000000001,109.333333333333"
+              EndConnector="117.999996647239,0"
               Start="0,0"
-              End="55.0000000000001,101.833333333333">
+              End="110.499996647239,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,50.6666666666667" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,50.6666666666667"
-                    Point2="0,54.6666666666667"
-                    Point3="4,54.6666666666667" />
-                  <mssgle:LineSegment
-                    End="51.0000000000001,54.6666666666667" />
-                  <mssgle:CubicBezierSegment
-                    Point1="51.0000000000001,54.6666666666667"
-                    Point2="55.0000000000001,54.6666666666667"
-                    Point3="55.0000000000001,58.6666666666667" />
-                  <mssgle:LineSegment
-                    End="55.0000000000001,101.833333333333" />
+                    End="110.499996647239,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
