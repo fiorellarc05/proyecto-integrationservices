@@ -1,4 +1,4 @@
-CREATE TABLE carga (
+CREATE TABLE productos (
 	ProductID INT ,
 	ProductName varchar(50),
 	CompanyName varchar(50),
